@@ -48,3 +48,17 @@ Marcos Guerra Soares, 332 , GES
 
     Após alcançar a solução ótima, interprete os resultados em termos do problema original.
 
+# TESTES:
+
+## MAXIMIZE:
+    Z = 5x1 + 7x2
+
+## RESTRIÇÕES:
+    primeira -> 3x1 <= 250
+    segunda -> 1.5 <= 100
+    terceira -> 0.25x1 + 0.5x2 <= 50
+
+## SOLUÇÃO RETORNADA:
+    Solução Ótima: [83.33333333 58.33333333]
+    Lucro Ótimo: 825.0
+    Preços Sombra: [ 0.5  0.  14. ]
