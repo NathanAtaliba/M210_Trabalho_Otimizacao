@@ -6,7 +6,7 @@ Nathan Santos Ataliba, 1663 , GEC
 
 Gabriel Guerzoni , 235 , GES
 
-Marcos Guerra Soares, XXX , XXX
+Marcos Guerra Soares, 332 , GES
 # LOGICA:
 
    O método Simplex é um algoritmo utilizado para resolver problemas de programação linear, que são problemas de otimização nos quais se busca maximizar ou minimizar uma função linear sujeita a um conjunto de restrições lineares. Aqui estão os passos básicos para utilizar o método Simplex:
