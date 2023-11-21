@@ -36,13 +36,13 @@ Marcos Guerra, XXX , XXX
 
 # Verifique o Critério de Parada:
 
-Verifique se a solução atual é ótima ou se deve continuar o processo. O critério de parada geralmente envolve todos os coeficientes da função objetivo sendo não negativos.
+    Verifique se a solução atual é ótima ou se deve continuar o processo. O critério de parada geralmente envolve todos os coeficientes da função objetivo sendo não negativos.
 
 ## Iteração:
 
-Se a solução não for ótima, repita os passos 4 a 7 até atingir a solução ótima.
+    Se a solução não for ótima, repita os passos 4 a 7 até atingir a solução ótima.
 
 ## Interpretação da Solução:
 
-Após alcançar a solução ótima, interprete os resultados em termos do problema original.
+    Após alcançar a solução ótima, interprete os resultados em termos do problema original.
 
