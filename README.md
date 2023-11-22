@@ -55,7 +55,7 @@ Marcos Guerra Soares, 332 , GES
 
 ## RESTRIÇÕES:
     primeira -> 3x1 <= 250
-    segunda -> 1.5 <= 100
+    segunda -> 1.5x2 <= 100
     terceira -> 0.25x1 + 0.5x2 <= 50
 
 ## SOLUÇÃO RETORNADA:

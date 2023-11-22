@@ -37,6 +37,9 @@ for i in range(num_constraints):
 
 const = np.array(const)
 
+#MOSTRANDO AS RESTRIÇÕES
+print(restric, const)
+
 def simplex(funcObj, restricoes, constantes):
 
     #Quantidade de variáveis e constantes
