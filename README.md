@@ -7,6 +7,7 @@ Nathan Santos Ataliba, 1663 , GEC
 Gabriel Guerzoni , 235 , GES
 
 Marcos Guerra Soares, 332 , GES
+
 # LOGICA:
 
    O método Simplex é um algoritmo utilizado para resolver problemas de programação linear, que são problemas de otimização nos quais se busca maximizar ou minimizar uma função linear sujeita a um conjunto de restrições lineares. Aqui estão os passos básicos para utilizar o método Simplex:
@@ -32,11 +33,11 @@ Marcos Guerra Soares, 332 , GES
 
     Determine qual variável de folga ou de excesso deixará a base. Isso é feito considerando as restrições e garantindo que a solução continue sendo factível.
 
-# Atualize a Tabela Simplex:
+## Atualize a Tabela Simplex:
 
     Utilize operações elementares para atualizar a tabela. As operações mais comuns são pivotamento e escalonamento.
 
-# Verifique o Critério de Parada:
+## Verifique o Critério de Parada:
 
     Verifique se a solução atual é ótima ou se deve continuar o processo. O critério de parada geralmente envolve todos os coeficientes da função objetivo sendo não negativos.
 
@@ -48,7 +49,7 @@ Marcos Guerra Soares, 332 , GES
 
     Após alcançar a solução ótima, interprete os resultados em termos do problema original.
 
-# TESTES:
+# TESTES:d
 
 ## MAXIMIZE:
     Z = 5x1 + 7x2
