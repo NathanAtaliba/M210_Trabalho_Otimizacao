@@ -49,7 +49,7 @@ Marcos Guerra Soares, 332 , GES
 
     Após alcançar a solução ótima, interprete os resultados em termos do problema original.
 
-# TESTES:d
+# TESTES:
 
 ## MAXIMIZE:
     Z = 5x1 + 7x2
