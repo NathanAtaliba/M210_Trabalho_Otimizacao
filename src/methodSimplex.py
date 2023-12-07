@@ -11,14 +11,16 @@ num_constraints = int(input("Digite o número de restrições: "))
 funcObj = [] # MAXIMIZE
 
 for i in range(num_variables):
+    print(f"Entrando com os coeficientes da função objetivo: \n")
     coefficient = float(input(f"Digite o coeficiente da variável x{i+1} na função objetivo: "))
     funcObj.append(-coefficient)
 
 funcObj = np.array(funcObj)
 
 # Solicitar os coeficientes das restrições
-restric = [] # array para restrições
+restric = [] # lista para restrições
 
+print(f"Entrando com os coeficientes das variaveis na restrições: \n")
 for i in range(num_constraints):
     row = []
     for j in range(num_variables):
@@ -29,7 +31,7 @@ for i in range(num_constraints):
 restric = np.array(restric)
 
 # Solicitar os termos constantes das restrições
-const = [] # array para constantes
+const = [] # lista para constantes
 
 for i in range(num_constraints):
     constant = float(input(f"Digite o termo constante na restrição {i+1}: "))
@@ -38,7 +40,9 @@ for i in range(num_constraints):
 const = np.array(const)
 
 # MOSTRANDO AS RESTRIÇÕES
-print(restric, const)
+print("RESTRIÇÕES: ", restric )
+print("CONSTANTES: ",const )
+print(" ")
 
 def simplex(funcObj, restricoes, constantes):
 
@@ -94,4 +98,4 @@ solucao, valorOtimo, precoSombra = simplex(funcObj, restric, const)
 # Imprimindo os resultados solicitados
 print(f'A solução Ótima: {solucao}')
 print(f'O lucro Ótimo: {valorOtimo}')
-print(f'O preços Sombra: {precoSombra}')
+print(f'Os preços Sombra: {precoSombra}')
